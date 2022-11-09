@@ -12,7 +12,7 @@ int main()
     scanf("%d", &b);
     printf("Finaltest = ");
     scanf("%d", &c);
-    printf("\nFinal Score = %f", (a*0.3) + (b*0.3) + (c*0.4)); 
+    printf("\nFinal Score = %d", ((a*3)/10) + ((b*3)/10) + ((c*4)/10)); 
     getch();
     return 0;
 }
